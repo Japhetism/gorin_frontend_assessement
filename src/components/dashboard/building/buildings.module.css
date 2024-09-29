@@ -18,6 +18,13 @@
     width: 100%;
 }
 
+.buildingHeader {
+    text-align: center;
+    line-height: 55px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
 .buildings {
     display: flex;
     justify-content: space-between;
@@ -97,4 +104,12 @@
         height: 256.39px;
         width: 308px;
     }
+
+    .buildingHeader {
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 26px;
+        font-weight: 600;
+    }    
 }

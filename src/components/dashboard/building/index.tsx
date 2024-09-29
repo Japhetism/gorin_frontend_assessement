@@ -8,6 +8,9 @@ const Buildings = () => {
     return (
         <div className={styles.buildingContainer}>
             <div className={styles.buildingSection}>
+                <p className={styles.buildingHeader}>
+                    <span>Sample OMs Created with our platform</span>
+                </p>
                 <div className={styles.buildings}>
                     {buildings.map((building: IBuilding, index: number) => (
                         <div className={styles.building} key={index}>
