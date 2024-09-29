@@ -1,9 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Header from "@/components/header";
+import Layout from "@/components/layout";
+import Information from "@/components/dashboard/information";
 
 export default function Home() {
-  return (
-    <Header />
-  );
+  return <Layout>
+    <div>
+      <Information />
+      {/* <div>ddddddd</div> */}
+    </div>
+  </Layout>
 }
