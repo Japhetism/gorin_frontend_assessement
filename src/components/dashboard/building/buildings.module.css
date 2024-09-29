@@ -1,0 +1,100 @@
+.buildingContainer {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px 20px 30px;
+    font-family: 'Poppins', monospace;
+    height: auto;
+    width: 100%;
+    background-image: url("/images/layoutBuilding.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.buildingSection {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 40px;
+    width: 100%;
+}
+
+.buildings {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.building {
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    width: 358px;
+    height: 433.42px;
+}
+
+.buildingImage {
+    position: relative;
+    height: 276.39px;
+    width: 357px;
+}
+
+.extras {
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.buildingTitle {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 14.3px;
+}
+
+.buildingDescription {
+    margin-top: 5px;
+    color: #52525B;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.button {
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14.11px;
+    line-height: 24.19px;
+    color: #7261FF;
+    padding: 5px;
+    border: 1.01px solid #7261FF;
+    background-color: #FFFFFF;
+}
+
+.button:hover {
+    border: 1.01px solid #7261FF;
+    background: #7261FF;
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .buildings {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0px;
+    }
+
+    .building {
+        border: 1px solid #B2B2B2;
+        border-radius: 5px;
+        width: 308px;
+        height: 433.42px;
+        margin-bottom: 30px;
+    }
+
+    .buildingImage {
+        position: relative;
+        height: 256.39px;
+        width: 308px;
+    }
+}
